@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(88, 5, 126);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(29, 8, 40);
+}
+
+nav ul li{
+    margin: 12px;
+    list-style: none;
+    color: antiquewhite;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.container{
+    overflow-y: auto;
+    max-width: 900px;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 10px;
+    min-height: 80vh;
+    background: url('musicbackground.jpg') no-repeat center/cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: rgb(46, 13, 64);
+    width: 76%;
+    margin: 14px auto;
+    border-radius: 10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icons{
+    margin: 7px 0px;
+}
+
+.forward{
+    width: 30px;
+}
+
+.backward{
+    width: 30px;
+}
+
+.play{
+    width: 30px;
+}
+
+.masterplay{
+    width: 30px;
+}
+
+#myProgressBar{
+    cursor: pointer;
+    width: 70%;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 12px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.timeStamp{
+    margin: 0px 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 45px;
+}
+
+.songList{
+    margin: 10px 20px;
+}
+.songInfo{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 15vw;
+}
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.2s ease-in-out;
+}
+
+.songName{
+    border-radius: 6px;
+    padding: 2px 2px;
+    background-color: rgb(183, 183, 250);
+    color: rgb(42, 84, 189);
+}

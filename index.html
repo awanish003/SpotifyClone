@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your fovourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-logo-png-7053.png" alt="musiclogo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Our Collections</h1>
+            <div class="songItemContainer">
+                <div class="songItem" id="0">
+                    <img src="logo.jpg" alt="logo1">
+                    <span class="songName">Let Go SomeWhere</span>
+                    <span class="songListplay"> <span class="timeStamp">05:34<i><img class="play" src="playbutton.png" alt="play" ></i></span></span>
+                </div>
+                <div class="songItem" id="1">
+                    <img src="logo.jpg" alt="logo1">
+                    <span class="songName">Let Go SomeWhere</span>
+                    <span class="songListplay"> <span class="timeStamp">05:34<i><img class="play" src="playbutton.png" alt="play" ></i></span></span>
+                </div>
+                <div class="songItem" id="2">
+                    <img src="logo.jpg" alt="logo1">
+                    <span class="songName">Let Go SomeWhere</span>
+                    <span class="songListplay"> <span class="timeStamp">05:34<i><img class="play" src="playbutton.png" alt="play" ></i></span></span>
+                </div>
+                <div class="songItem" id="3">
+                    <img src="logo.jpg" alt="logo1">
+                    <span class="songName">Let Go SomeWhere</span>
+                    <span class="songListplay"> <span class="timeStamp">05:34<i><img class="play" src="playbutton.png" alt="play" ></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Fontawsome icons  -->
+            <i><img id="prev" class="backward" src="backward.png" alt="back"></i>
+            <i><img id="masterplay" class="masterplay" src="playbutton.png" alt="play"></i>
+            <i><img id="next" class="forward" src="forward.png" alt="forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="ajax-loader.gif" id="gif" alt="gifimage" width="20px" height="20px">
+            <span id="mastersongname"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
